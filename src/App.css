@@ -1,38 +1,329 @@
-.App {
+.header-area {
+  /* width: 100%; */
+  position: fixed;
+  width: 100%;
+  right: 0;
+  left: 0;
+  z-index: 1000;
+  padding: 15px 0;
+  background-color: #3e43e959 !important;
+  min-height: 72px;
+  border-bottom: 1px solid rgba(255, 255, 255, .2);
+  -webkit-box-shadow: 0 1px 10px rgba(0, 0, 0, .1);
+  box-shadow: 0 1px 10px rgba(0, 0, 0, .1);
+  background-color: rgba(255, 255, 255, .05);
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+  color: #fff!important;
+  font-weight: 500;
+  padding: 0px 20px 0px 30px;
+}
+
+.nav-btn {
+  text-decoration: none;
+  margin-top: 10px;
+  color: #fff!important;;
+  background-color: #3e43e9;
+  border: 1px solid #3e43e9;
+  font-weight: 500;
+  text-transform: capitalize;
+  font-size: 14px;
+  border-radius: 30px;
+  padding: 10px 30px;
+  letter-spacing: .5px;
+  -webkit-box-shadow: 2px 2px 10px -1px rgba(0, 0, 0, .14);
+  box-shadow: 2px 2px 10px -1px rgba(0, 0, 0, .14);
+
+}
+
+.nav-btn:hover {
+  background-color: #fff!important;
+  border: 1px solid #3e43e9 !important;
+  color: #000!important;
+}
+
+
+.home-area {
+  height: 100vh;
+  min-height: 600px;
+  background: url('https://newtemplate.net/demo/resume/template/default/images/banner-01.jpg');
+  background-size: cover;
+  overflow: hidden;
+  position: relative;
+  z-index: 2
+}
+
+@media screen and (min-width: 991px) {
+  .home-area {
+    background-attachment: fixed
+  }
+}
+
+.home-area:before {
+  content: '';
+  z-index: 1;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background-repeat: no-repeat;
+  bottom: 0;
+  right: 0;
+  top: 0;
+  background-image: linear-gradient(to right, #360b7b 0%, #003a9c 100%);
+  opacity: .6
+}
+
+.home-area .image-item {
+  position: absolute;
+  top: 35px;
+  right: 15px;
+  width: 35%;
+  z-index: 1
+}
+
+
+.home-area .home-content {
+  position: relative;
+  z-index: 2;
+  color: #fff;
+  text-shadow: 1px 1px 0 rgba(0, 0, 0, .14901960784313725)
+}
+
+.home-content h1 {
+  font-size: 70px;
+  margin: 25px 0px;
+
+}
+
+.home-content h1 strong {
+  color: #00C4FF;
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: #00C4FF;
+}
+
+.home-content p {
+  font-size: 18px;
+}
+
+.home-content h5 strong {
+  background: #262935;
+  padding: 4px 10px;
+}
+
+.banner-btn {
+  margin-top: 10px;
+  color: #222;
+  background-color: #fff;
+  border: 1px solid #fff;
+  font-weight: 500;
+  text-transform: capitalize;
+  font-size: 14px;
+  border-radius: 30px;
+  padding: 10px 30px;
+  letter-spacing: .5px;
+  -webkit-box-shadow: 2px 2px 10px -1px rgba(0, 0, 0, .14);
+  box-shadow: 2px 2px 10px -1px rgba(0, 0, 0, .14);
+
+}
+
+.btn-color {
+  background-color: #3e43e9;
+  border: 1px solid #3e43e9;
+  color: #fff;
+}
+
+.home-content img {
+  width: 70%;
+}
+
+.home-area .image-item {
+  position: absolute;
+  top: 35px;
+  right: 15px;
+  width: 35%;
+  z-index: 2;
+}
+
+.home-area .image-item img {
+  width: 80%;
+  border: none;
+  margin: 0;
+  padding: 0;
+}
+
+/*  */
+.about-sec {
+  padding: 100px 0px 50px 0px;
+}
+
+.about-sec img {
+  width: 90%;
+}
+
+.about-sec h3 {
+  text-decoration: underline;
+  text-decoration-color: #3e43e9;
+  font-weight: 600;
+  font-size: 40px;
+}
+
+.about-sec h5 {
+  font-weight: bold;
+}
+
+.about-sec p {
+  text-align: justify;
+  font-size: 17px;
+}
+
+.about-sech6 {
+  font-weight: 600;
+}
+
+.list-inline {
+  padding-left: 0;
+  list-style: none;
+}
+
+.about-info {
+  margin: 0;
+  padding: 0;
+  margin-bottom: 25px;
+}
+
+.about-info li {
+  display: inline-block;
+  width: 49%;
+}
+
+.about-info li span {
+  font-weight: bold;
+  margin-right: 10px;
+  float: left;
+
+}
+
+.services-sec {
+  padding: 70px 0px;
+}
+
+.services_sec_inner {
+  height: 100%;
+  width: 90%;
+  padding: 20px 35px;
+  background-color: #3f51b517;
+  border-radius: 8px;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.services_sec_inner img {
+  border-radius: 100px;
+  width: 50px;
+  height: auto;
+  margin: auto;
+  display: block;
+}
+
+.services_sec_inner h5 {
+  margin: 10px 0px 0px;
   text-align: center;
+  font-weight: 500;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+
+.experience_sec {
+  background-color: #f6f7fd;
+  padding: 70px 0px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.experience_sec h3 {
+  font-weight: bold;
+  font-size: xx-large;
+
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.experience_sec span {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  text-decoration: underline;
+  text-transform: uppercase;
+  color: #3e43e9;
+}
+.experience_sec_inner{
+  height: 100%;
+  width: 90%;
+  padding: 20px 35px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+.experience_sec_inner img{
+  width: 90%;
+  margin: auto;
+  display: block;
 }
 
-.App-link {
-  color: #61dafb;
+.experience_sec_inner h5{
+margin: 10px 0px;
+text-align: center;
+}
+.experience_sec_inner a{
+  text-decoration: none;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+#education{
+  padding: 70px 0px;
+  background-color: #f6f7fd;
+}
+
+.form-control{
+  border-radius: 50px;
+  height: 50px;
+}
+.contact_sec{
+  padding: 70px 0px;
+}
+.contact_sec h3{
+  text-align: center;
+  font-weight: bold;
+  font-size: 40px;
+  color: #3e43e9;
+  margin-bottom: 25px;
+}
+.footer{
+  background-color: #f6f7fd;
+  padding: 50px 0px;
+}
+.footer a {
+  text-decoration: none;
+  font-size: large;
+  font-weight: 600;
+
+}
+.education_inner{
+  height: 100%;
+  padding: 20px 35px;
+  background-color: #fff;
+  border-radius: 8px;
+  border-bottom: 5px solid #3e43e9;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+#education h3{
+font-size: xxx-large;
+/* font-weight: 600;
+background-image: linear-gradient(to left, #553c9a, #b393d3);*/
+color: transparent;
+background-clip: text;
+-webkit-background-clip: text; 
+font-weight: 600;
+background-image: url('https://blog.logrocket.com/wp-content/uploads/2022/03/demo-background-image.png');
+background-size: 250px;
+background-repeat: repeat;
+color: transparent;
+-webkit-background-clip: text;
+background-clip: text;
+}
+.education_inner h4{
+color: #3e43e9;
 }

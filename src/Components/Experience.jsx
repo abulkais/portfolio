@@ -31,7 +31,7 @@ const Experience = () => {
                                             <h5>SISGAIN</h5>
                                         </a>
 
-                                        <h5>2022 - Today</h5>
+                                        <h5>2022 - Present</h5>
                                     </div>
                                 </div>
                             </div>

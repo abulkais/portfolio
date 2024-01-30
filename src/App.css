@@ -15,7 +15,7 @@
 }
 
 .navbar-expand-lg .navbar-nav .nav-link {
-  color: #fff!important;
+  color: #fff !important;
   font-weight: 500;
   padding: 0px 20px 0px 30px;
 }
@@ -23,7 +23,8 @@
 .nav-btn {
   text-decoration: none;
   margin-top: 10px;
-  color: #fff!important;;
+  color: #fff !important;
+  ;
   background-color: #3e43e9;
   border: 1px solid #3e43e9;
   font-weight: 500;
@@ -38,9 +39,9 @@
 }
 
 .nav-btn:hover {
-  background-color: #fff!important;
+  background-color: #fff !important;
   border: 1px solid #3e43e9 !important;
-  color: #000!important;
+  color: #000 !important;
 }
 
 
@@ -213,13 +214,22 @@
   height: 100%;
   width: 90%;
   padding: 20px 35px;
+  /* background-color: #3f51b517; */
+  border-radius: 8px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+
+.services_sec_inner:hover {
+  height: 100%;
+  width: 90%;
+  padding: 20px 35px;
   background-color: #3f51b517;
   border-radius: 8px;
-  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+
 }
 
 .services_sec_inner img {
-  border-radius: 100px;
+  /* border-radius: 100px; */
   width: 50px;
   height: auto;
   margin: auto;
@@ -250,7 +260,8 @@
   text-transform: uppercase;
   color: #3e43e9;
 }
-.experience_sec_inner{
+
+.experience_sec_inner {
   height: 100%;
   width: 90%;
   padding: 20px 35px;
@@ -258,50 +269,57 @@
   border-radius: 8px;
   box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
 }
-.experience_sec_inner img{
+
+.experience_sec_inner img {
   width: 90%;
   margin: auto;
   display: block;
 }
 
-.experience_sec_inner h5{
-margin: 10px 0px;
-text-align: center;
+.experience_sec_inner h5 {
+  margin: 10px 0px;
+  text-align: center;
 }
-.experience_sec_inner a{
+
+.experience_sec_inner a {
   text-decoration: none;
 }
 
-#education{
+#education {
   padding: 70px 0px;
   background-color: #f6f7fd;
 }
 
-.form-control{
+.form-control {
   border-radius: 50px;
   height: 50px;
 }
-.contact_sec{
+
+.contact_sec {
   padding: 70px 0px;
 }
-.contact_sec h3{
+
+.contact_sec h3 {
   text-align: center;
   font-weight: bold;
   font-size: 40px;
   color: #3e43e9;
   margin-bottom: 25px;
 }
-.footer{
+
+.footer {
   background-color: #f6f7fd;
   padding: 50px 0px;
 }
+
 .footer a {
   text-decoration: none;
   font-size: large;
   font-weight: 600;
 
 }
-.education_inner{
+
+.education_inner {
   height: 100%;
   padding: 20px 35px;
   background-color: #fff;
@@ -309,21 +327,72 @@ text-align: center;
   border-bottom: 5px solid #3e43e9;
   box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
 }
-#education h3{
-font-size: xxx-large;
-/* font-weight: 600;
+
+#education h3 {
+  font-size: xxx-large;
+  /* font-weight: 600;
 background-image: linear-gradient(to left, #553c9a, #b393d3);*/
-color: transparent;
-background-clip: text;
--webkit-background-clip: text; 
-font-weight: 600;
-background-image: url('https://blog.logrocket.com/wp-content/uploads/2022/03/demo-background-image.png');
-background-size: 250px;
-background-repeat: repeat;
-color: transparent;
--webkit-background-clip: text;
-background-clip: text;
+  color: transparent;
+  background-clip: text;
+  -webkit-background-clip: text;
+  font-weight: 600;
+  background-image: url('https://blog.logrocket.com/wp-content/uploads/2022/03/demo-background-image.png');
+  background-size: 250px;
+  background-repeat: repeat;
+  color: transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
 }
-.education_inner h4{
-color: #3e43e9;
+
+.education_inner h4 {
+  color: #3e43e9;
+}
+
+/* Project  */
+
+.projects {
+  width: 100%;
+  height: auto;
+  padding: 50px 0px;
+  /* margin: 40px 0px; */
+  background-color: whitesmoke;
+  /* border-radius: 20px; */
+}
+
+.projects_div {
+  width: 100%;
+  height: 100%;
+  padding: 20px 0px;
+  background-color: #fff;
+  /* border: 2px solid blue; */
+  border-radius: 20px;
+}
+.projects h2{
+  text-align: center;
+  font-weight: bold;
+}
+
+.projects_div h4 {
+  text-align: center;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.projects_div img {
+  width: 40px;
+  height: auto;
+  margin: 0 auto;
+  margin-bottom: 15px;
+  display: block;
+}
+
+.projects_div button {
+  padding: 5px 30px;
+  font-size: large;
+  margin: 0 auto;
+  display: block;
+}
+
+.projects_div button  a{
+ text-decoration: none;
 }

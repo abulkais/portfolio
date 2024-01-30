@@ -7,6 +7,7 @@ import Experience from './Components/Experience';
 import Footer from './Components/Footer';
 import Header from './Components/Header';
 import Home from './Components/Home';
+import Projects from './Components/Projects';
 import Technologies from './Components/Technologies';
 
 function App() {
@@ -18,6 +19,7 @@ function App() {
       <About />
       <Experience />
       <Technologies />
+      <Projects/>
       <Education />
       <Contact />
       <Footer />

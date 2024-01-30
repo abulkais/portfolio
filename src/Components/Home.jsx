@@ -11,7 +11,7 @@ const Home = () => {
                             <h1>I'm a <strong>Developer {'</>'}</strong></h1>
                            <p>Experienced Developer proficient in various technologies. Passionate about problem-solving and creating efficient solutions. Constantly learning and adapting to deliver high-quality software products.</p>
                             <div style={{display:'flex', gap:'30px'}}>
-                            <a className='banner-btn' href="#about"> About me</a> <button className=' banner-btn btn-color'> Portfolio</button>
+                            <a className='banner-btn' href="#about"> About me</a>
                             </div>
                         </div>
                     </div>

@@ -2,6 +2,8 @@ import React, { useRef } from 'react'
 // import React, { useRef } from 'react';
 import emailjs from '@emailjs/browser';
 
+import contactImg from '../contact-girl.webp';
+
 const Contact = () => {
     const form = useRef();
 
@@ -25,20 +27,12 @@ const Contact = () => {
                     <div className='row'>
                         {/* <h3>Have a project on Mind?</h3> */}
                         <div className='col-md-6'>
-                            <img src="https://n9k9k9a4.rocketcdn.me/wp-content/uploads/2021/04/con2.png" alt="" />
+                            <img src={contactImg} alt="" />
                         </div>
                         <div className='col-md-6'>
                             <h3 style={{ color: '#000' }}> Get a Quote</h3>
 
-                            {/* <form ref={form} onSubmit={sendEmail}>
-                                <label>Name</label>
-                                <input type="text" name="name" />
-                                <label>Email</label>
-                                <input type="email" name="email" />
-                                <label>Message</label>
-                                <textarea name="message" />
-                                <input type="submit" value="Send" />
-                            </form> */}
+
                             <form ref={form} onSubmit={sendEmail}>
 
                                 <div className="mb-4">

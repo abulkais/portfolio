@@ -35,7 +35,12 @@ const Skills = () => {
   ];
 
   return (
-    <section id="skills" className="py-20 bg-muted/30">
+    <section id="skills" className="py-20 bg-background relative">
+      {/* Background Pattern */}
+      <div className="absolute inset-0 opacity-30">
+        <div className="absolute top-20 right-20 w-64 h-64 bg-primary/10 rounded-full blur-3xl"></div>
+        <div className="absolute bottom-20 left-20 w-80 h-80 bg-accent/10 rounded-full blur-3xl"></div>
+      </div>
       <div className="container mx-auto px-6">
         {/* Header */}
         <div className="text-center mb-16">

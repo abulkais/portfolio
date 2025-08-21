@@ -56,7 +56,12 @@ const Projects = () => {
   ];
 
   return (
-    <section id="projects" className="py-20 bg-muted/30">
+    <section id="projects" className="py-20 bg-muted/20 relative">
+      {/* Background Elements */}
+      <div className="absolute inset-0 opacity-20">
+        <div className="absolute top-10 left-10 w-96 h-96 bg-primary/10 rounded-full blur-3xl"></div>
+        <div className="absolute bottom-10 right-10 w-80 h-80 bg-accent/10 rounded-full blur-3xl"></div>
+      </div>
       <div className="container mx-auto px-6">
         {/* Header */}
         <div className="text-center mb-16">

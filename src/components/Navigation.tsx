@@ -20,31 +20,38 @@ const Navigation = () => {
 
   return (
     <nav className={`fixed top-0 w-full z-50 transition-all duration-300 ${
-      scrolled ? 'glass-effect shadow-card' : 'bg-transparent'
+      scrolled ? 'bg-background/80 backdrop-blur-lg border-b border-border shadow-card' : 'bg-transparent'
     }`}>
       <div className="container mx-auto px-6 py-4">
         <div className="flex justify-between items-center">
-          <div className="text-xl font-bold text-gradient">
-            Abul Kaish
+          <div className="text-xl font-bold">
+            <span className="text-primary">Kaish</span>
           </div>
           
           <div className="hidden md:flex space-x-8">
-            {['about', 'skills', 'experience', 'projects', 'contact'].map((item) => (
+            {[
+              { name: 'Home', id: 'about' },
+              { name: 'About', id: 'skills' },
+              { name: 'Experience', id: 'experience' },
+              { name: 'Technologies', id: 'skills' },
+              { name: 'Projects', id: 'projects' },
+              { name: 'Education', id: 'contact' }
+            ].map((item) => (
               <button
-                key={item}
-                onClick={() => scrollToSection(item)}
-                className="text-muted-foreground hover:text-primary transition-colors capitalize"
+                key={item.name}
+                onClick={() => scrollToSection(item.id)}
+                className="text-muted-foreground hover:text-primary transition-colors"
               >
-                {item}
+                {item.name}
               </button>
             ))}
           </div>
 
           <Button 
             onClick={() => scrollToSection('contact')}
-            className="bg-gradient-primary hover:bg-gradient-primary/90 text-white"
+            className="bg-gradient-primary hover:bg-gradient-primary/90 shadow-glow"
           >
-            Get In Touch
+            Get A Quote
           </Button>
         </div>
       </div>

@@ -78,6 +78,7 @@ export default {
 				'soft': 'var(--shadow-soft)',
 				'glow': 'var(--shadow-glow)',
 				'card': 'var(--shadow-card)',
+				'neon': 'var(--shadow-neon)',
 			},
 			transitionTimingFunction: {
 				'smooth': 'cubic-bezier(0.4, 0, 0.2, 1)',

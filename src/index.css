@@ -8,50 +8,52 @@
 
 @layer base {
   :root {
-    /* Core Brand Colors - Deep Blue Tech Theme */
-    --background: 0 0% 100%;
-    --foreground: 222.2 84% 4.9%;
+    /* Dark Theme - Modern Black Portfolio */
+    --background: 220 13% 9%;
+    --foreground: 210 40% 98%;
     
-    /* Brand Primary - Professional Blue Gradient */
-    --primary: 217 91% 60%;
-    --primary-glow: 217 91% 70%;
-    --primary-dark: 217 91% 45%;
+    /* Brand Primary - Vibrant Purple/Blue */
+    --primary: 259 94% 70%;
+    --primary-glow: 280 100% 75%;
+    --primary-dark: 240 100% 60%;
     --primary-foreground: 0 0% 100%;
     
-    /* Secondary - Sophisticated Gray */
-    --secondary: 210 40% 96.1%;
-    --secondary-foreground: 222.2 47.4% 11.2%;
+    /* Secondary - Dark Surface */
+    --secondary: 220 13% 15%;
+    --secondary-foreground: 210 40% 98%;
     
-    /* Accent - Vibrant Tech Blue */
-    --accent: 200 95% 55%;
-    --accent-foreground: 0 0% 100%;
+    /* Accent - Electric Blue */
+    --accent: 200 100% 60%;
+    --accent-foreground: 220 13% 9%;
     
-    /* Surface Colors */
-    --card: 0 0% 100%;
-    --card-foreground: 222.2 84% 4.9%;
-    --muted: 210 40% 96.1%;
-    --muted-foreground: 215.4 16.3% 46.9%;
+    /* Surface Colors - Dark Theme */
+    --card: 220 13% 12%;
+    --card-foreground: 210 40% 98%;
+    --muted: 220 13% 15%;
+    --muted-foreground: 215 15% 65%;
     
-    /* Interactive Elements */
-    --border: 214.3 31.8% 91.4%;
-    --input: 214.3 31.8% 91.4%;
-    --ring: 217 91% 60%;
-    --destructive: 0 84.2% 60.2%;
+    /* Interactive Elements - Dark Theme */
+    --border: 220 13% 20%;
+    --input: 220 13% 15%;
+    --ring: 259 94% 70%;
+    --destructive: 0 84% 60%;
     --destructive-foreground: 210 40% 98%;
     
-    /* Popover */
-    --popover: 0 0% 100%;
-    --popover-foreground: 222.2 84% 4.9%;
+    /* Popover - Dark */
+    --popover: 220 13% 12%;
+    --popover-foreground: 210 40% 98%;
     
-    /* Design System Extensions */
-    --gradient-primary: linear-gradient(135deg, hsl(217 91% 60%), hsl(200 95% 55%));
-    --gradient-hero: linear-gradient(135deg, hsl(217 91% 60%) 0%, hsl(200 95% 55%) 50%, hsl(240 80% 65%) 100%);
-    --gradient-card: linear-gradient(145deg, hsl(0 0% 100%) 0%, hsl(210 40% 98%) 100%);
+    /* Design System Extensions - Dark Magic */
+    --gradient-primary: linear-gradient(135deg, hsl(259 94% 70%), hsl(280 100% 75%));
+    --gradient-hero: linear-gradient(135deg, hsl(220 13% 9%) 0%, hsl(240 100% 15%) 30%, hsl(259 94% 25%) 70%, hsl(280 100% 30%) 100%);
+    --gradient-card: linear-gradient(145deg, hsl(220 13% 12%) 0%, hsl(220 13% 15%) 100%);
+    --gradient-mesh: linear-gradient(45deg, hsl(259 94% 70% / 0.1) 0%, hsl(280 100% 75% / 0.1) 50%, hsl(200 100% 60% / 0.1) 100%);
     
-    /* Shadows */
-    --shadow-soft: 0 4px 20px -4px hsl(217 91% 60% / 0.1);
-    --shadow-glow: 0 0 40px hsl(217 91% 60% / 0.2);
-    --shadow-card: 0 8px 32px -8px hsl(222.2 84% 4.9% / 0.1);
+    /* Shadows - Dark Theme Glows */
+    --shadow-soft: 0 4px 20px -4px hsl(259 94% 70% / 0.3);
+    --shadow-glow: 0 0 40px hsl(259 94% 70% / 0.4);
+    --shadow-card: 0 8px 32px -8px hsl(0 0% 0% / 0.6);
+    --shadow-neon: 0 0 60px hsl(259 94% 70% / 0.6);
     
     /* Animation & Transitions */
     --transition-smooth: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);

@@ -4,7 +4,7 @@ import { Building, Calendar } from "lucide-react";
 
 const Experience = () => {
   return (
-    <section id="experience" className="py-20 bg-background">
+    <section id="experience" className="py-10 bg-background">
       <div className="container mx-auto px-6">
         {/* Header */}
         <div className="text-center mb-16">

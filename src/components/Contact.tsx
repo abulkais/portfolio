@@ -31,18 +31,18 @@ const Contact = () => {
       icon: <Github className="w-5 h-5" />,
       label: "GitHub",
       href: "https://github.com/abulkais",
-      color: "hover:text-gray-800"
+      color: "hover:text-white"
     },
     {
       icon: <Linkedin className="w-5 h-5" />,
       label: "LinkedIn", 
-      href: "https://linkedin.com/in/abulkaish",
-      color: "hover:text-blue-600"
+      href: "https://www.linkedin.com/in/abul-kaish",
+      color: "hover:text-white"
     }
   ];
 
   return (
-    <section id="contact" className="py-20 bg-background relative overflow-hidden">
+    <section id="contact" className="py-10 bg-background relative overflow-hidden">
       {/* Background Elements */}
       <div className="absolute inset-0 opacity-50">
         <div className="absolute top-0 left-0 w-96 h-96 bg-primary/5 rounded-full blur-3xl"></div>
@@ -171,7 +171,7 @@ const Contact = () => {
 
         {/* Education Section */}
         <div className="mt-20">
-          <h3 className="text-2xl font-semibold text-center mb-8">Education</h3>
+          <h3 className="text-2xl font-semibold text-center mb-8">🎓 Education</h3>
           <div className="grid md:grid-cols-2 gap-6 max-w-4xl mx-auto">
             <Card className="p-6 skill-card-hover">
               <h4 className="text-lg font-semibold text-primary mb-2">Bachelor of Computer Applications (BCA)</h4>

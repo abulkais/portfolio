@@ -25,7 +25,7 @@ const Navigation = () => {
       <div className="container mx-auto px-6 py-4">
         <div className="flex justify-between items-center">
           <div className="text-xl font-bold">
-            <span className="text-primary">Kaish</span>
+            <span className="text-primary text-3xl">{'</>'}</span>
           </div>
           
           <div className="hidden md:flex space-x-8">

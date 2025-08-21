@@ -18,22 +18,21 @@ const Hero = () => {
       </div>
       
       <div className="container mx-auto px-6 relative z-10">
-        <div className="flex flex-col lg:flex-row items-center gap-16">
+        <div className="flex flex-col lg:flex-row items-center gap-16 py-20 mr-20 ml-20 lg:mr-10 lg:ml-10">
+
           {/* Content */}
-          <div className="flex-1 text-center lg:text-left">
+          <div className="flex-1 text-start">
             {/* Hello Introduction */}
-            <p className="text-lg text-foreground/80 mb-4">
-              Hello, my name is <span className="text-primary font-semibold">Abul Kaish</span>
-            </p>
+           
             
-            <h1 className="text-5xl lg:text-7xl font-bold mb-6">
-              I'm a <span className="hero-text-glow">Developer</span>
+            <h1 className="text-5xl lg:text-7xl font-bold mb-6 mt-6">
+              I'm a <span className="hero-text-glow"> Full Stack Developer</span>
               <span className="text-accent ml-4 font-mono"> &lt;/&gt;</span>
             </h1>
             
-            <h2 className="text-xl lg:text-2xl font-light mb-8 text-foreground/90">
-              Full Stack Developer
-            </h2>
+            <p className="text-lg text-foreground/80 mb-4">
+              My Name is <span className="text-primary font-semibold">Abul Kaish</span>
+            </p>
             
             <p className="text-lg lg:text-xl mb-8 text-foreground/80 max-w-2xl leading-relaxed">
               Experienced Developer proficient in various technologies. Passionate about problem-solving 
@@ -74,10 +73,10 @@ const Hero = () => {
             </div>
           </div>
 
-          {/* Profile Image */}
-          <div className="flex-shrink-0 order-first lg:order-last">
+           {/* Profile Image */}
+          <div className="flex-shrink-0 order-last ">
             <div className="relative">
-              <div className="w-80 h-80 lg:w-96 lg:h-96 rounded-2xl overflow-hidden shadow-neon ring-2 ring-primary/30">
+              <div className="w-70 h-70 lg:w-80 lg:h-80 rounded-full overflow-hidden shadow-neon ring-2 ring-primary/30">
                 <img 
                   src="/lovable-uploads/16499cdc-0266-4d09-a311-194b827a7172.png" 
                   alt="Abul Kaish - Full Stack Developer"
@@ -87,6 +86,7 @@ const Hero = () => {
               <div className="absolute -inset-2 bg-gradient-primary rounded-2xl blur-lg opacity-30 -z-10"></div>
             </div>
           </div>
+         
         </div>
       </div>
     </section>

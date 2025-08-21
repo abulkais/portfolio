@@ -6,7 +6,7 @@ const Skills = () => {
     {
       title: "Frontend Development",
       icon: <Code className="w-8 h-8" />,
-      skills: ["HTML", "CSS", "JavaScript", "ReactJS", "Tailwind CSS", "Bootstrap"],
+      skills: ["HTML", "CSS", "JavaScript", "ReactJS", "Tailwind CSS", "Bootstrap", "ChartJS"],
       color: "from-blue-500 to-purple-600"
     },
     {
@@ -18,24 +18,24 @@ const Skills = () => {
     {
       title: "Database Management",
       icon: <Database className="w-8 h-8" />,
-      skills: ["MySQL", "Database Design", "Query Optimization"],
+      skills: ["MySQL", "MongoDB", "Database Design", "Query Optimization"],
       color: "from-orange-500 to-red-600"
     },
     {
       title: "UI/UX Design",
       icon: <Palette className="w-8 h-8" />,
-      skills: ["Responsive Design", "User Experience", "Modern UI"],
+      skills: ["Responsive Design", "User Experience", "Material UI"],
       color: "from-pink-500 to-rose-600"
     }
   ];
 
   const technologies = [
     "HTML", "CSS", "Tailwind CSS", "JavaScript", "Bootstrap", "ReactJS", 
-    "Core PHP", "MySQL", "Node.js", "English", "Hindi"
+    "Core PHP", "MySQL", "Node.js", "MongoDB"
   ];
 
   return (
-    <section id="skills" className="py-20 bg-background relative">
+    <section id="skills" className="py-10 bg-background relative">
       {/* Background Pattern */}
       <div className="absolute inset-0 opacity-30">
         <div className="absolute top-20 right-20 w-64 h-64 bg-primary/10 rounded-full blur-3xl"></div>
